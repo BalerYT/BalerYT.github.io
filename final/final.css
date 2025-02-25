@@ -1,18 +1,11 @@
 /*BEGIN PS4 Controller Styling*/
+
 .controller.ds4 {
     background: url(basemod.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
-}
-
-.ds4.disconnected {
-    background: url(ps4-assets/disconnected.svg);
-}
-
-.ds4.disconnected div {
-    display: none;
 }
 
 .ds4 .triggers {
@@ -80,47 +73,6 @@
     background: url(touchpadmod.png) no-repeat center;
 }
 
-.ds4 .meta {
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    left: 382px;
-    bottom: 216px;
-}
-
-.ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svg) no-repeat center;
-}
-
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svg);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
-}
-
 .ds4 .back, .ds4 .start {
     background: url(startmod.png);
     width: 28px;
@@ -132,25 +84,6 @@ background-position: 0 -70px;
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
-}
-
-.ds4 .back {
-    float: left;
-    /* width: 28px; */
-}
-
-.ds4 .start {
-    float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
-}
-
-.ds4 .abxy {
-    position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
 }
 
 .ds4 .button {
@@ -277,42 +210,3 @@ background-position: 0 -70px;
 }
 
 /*END PS4 Controller Styling*/
-
-/*BEGIN PS4 White Controller Styling*/
-.controller.ds4.white {
-    background-image: url(ps4-white-assets/base.svg);
-}
-
-.ds4.white.disconnected {
-    background: url(ps4-assets/disconnected.svg);
-}
-
-.ds4.white .trigger {
-    background-image: url(ps4-white-assets/triggers.svg);
-}
-
-.ds4.white .bumper {
-    background-image: url(ps4-white-assets/bumper.svg);
-}
-
-.ds4.white .touchpad.pressed {
-    background-image: url(ps4-white-assets/touchpad.svg);
-}
-
-.ds4.white .back, .ds4 .start {
-    background-image: url(ps4-white-assets/start.svg);
-}
-
-.ds4.white .button {
-    background-image: url(ps4-white-assets/face.svg);
-}
-
-.ds4.white .stick {
-    background-image: url(ps4-white-assets/sticks.svg);
-}
-
-.ds4.white .face {
-    background-image: url(ps4-white-assets/dpad.svg);
-}
-
-/*END PS4 White Controller Styling*/
